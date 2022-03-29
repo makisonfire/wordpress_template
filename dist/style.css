@@ -16,4 +16,16 @@ a {
   text-decoration: none;
 }
 
+.container__base {
+  max-width: 100%;
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 500px) {
+  .container__base {
+    width: 95%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map*/

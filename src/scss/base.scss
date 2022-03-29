@@ -1,0 +1,28 @@
+@import './functions';
+
+@include mq(xxl){
+    // 基本的な構造スタイル
+}
+@include mq(xl){
+    // 基本的な構造スタイル
+}
+@include mq(lg){
+    // 基本的な構造スタイル
+}
+@include mq(md){
+    // 基本的な構造スタイル
+}
+@include mq(sm){
+    // 基本的な構造スタイル
+}
+
+.container__base {
+    max-width: 100%;
+    width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include mq(sm){
+        width: 95%;
+    }
+}
