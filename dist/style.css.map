@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":";;;AAAA;EACI;EACA;EACA;ACCJ,C","sources":["webpack://wordpress-skelton/./src/_reset.scss","webpack://wordpress-skelton/./src/style.scss"],"sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}","* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}"],"names":[],"sourceRoot":""}
