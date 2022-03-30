@@ -28,4 +28,34 @@ a {
   }
 }
 
+@media screen and (max-width: 840px) {
+  .pc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tab_over {
+    display: none;
+  }
+}
+
+.tab_und {
+  display: none;
+}
+@media screen and (max-width: 840px) {
+  .tab_und {
+    display: block;
+  }
+}
+
+.sp {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .sp {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map*/

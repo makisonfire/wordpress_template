@@ -11,3 +11,10 @@ $breakpoints: (
         @content;
     }
 }
+
+// $baseSize: 16px;
+
+// @mixin fontSize($size: 24, $baseSize){
+//     font-size: $size + px;
+//     font-size: ($size / $baseSize) * 1rem;
+// }

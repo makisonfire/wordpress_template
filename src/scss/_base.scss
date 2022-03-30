@@ -1,4 +1,5 @@
 @import './functions';
+@import './variables';
 
 @include mq(xxl){
     // 基本的な構造スタイル
@@ -26,3 +27,8 @@
         width: 95%;
     }
 }
+
+// body {
+//     @include fontSize(16);
+//     color: $baseColor;
+// }

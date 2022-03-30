@@ -1,0 +1,44 @@
+@import './functions';
+
+@include mq(xxl){
+    // 便利クラス
+}
+@include mq(xl){
+    // 便利クラス
+}
+@include mq(lg){
+    // 便利クラス
+}
+@include mq(md){
+    // 便利クラス
+}
+@include mq(sm){
+    // 便利クラス
+}
+
+.pc {
+    @include mq(md){
+        display: none;
+    }
+}
+
+.tab_over {
+    @include mq(sm){
+        display: none;
+    }
+}
+
+.tab_und {
+    display: none;
+    @include mq(md){
+        display: block;
+    }
+}
+
+.sp {
+    display: none;
+
+    @include mq(sm){
+        display: block;
+    }
+}
