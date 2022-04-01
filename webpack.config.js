@@ -8,10 +8,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
 
     // entry-point
-    entry: './src/index.js',
+    entry: {
+        'main':'./src/index.js',
+        'top':'./src/top.js'
+    },
     // output
     output: {
-        filename:'main.js',
+        filename:'[name].js',
         path: path.resolve(__dirname,'dist'),
     },
     module: {
@@ -28,7 +31,7 @@ module.exports = {
     plugins:[
         new MiniCssExtractPlugin({
             // output filename 
-            filename:'style.css',
+            filename:'[name].css',
         }),
     ],
     // source-map output 

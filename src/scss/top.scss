@@ -1,0 +1,26 @@
+@import './functions';
+
+@include mq(xxl){
+    // top
+}
+@include mq(xl){
+    // top
+}
+@include mq(lg){
+    // top
+}
+@include mq(md){
+    // top
+}
+@include mq(sm){
+    // top
+}
+
+.normal-text {
+    $fontSize:18;
+    font-size: fontSize($fontSize);
+}
+
+h2 {
+    font-size: 20;
+}
