@@ -6,7 +6,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-
+    mode: 'development',
     // entry-point
     entry: {
         'main':'./src/index.js',
@@ -34,10 +34,14 @@ module.exports = {
             filename:'[name].css',
         }),
     ],
-    // source-map output 
-    devtool:'source-map',
     // exclude node_modules from watching
     watchOptions: {
         ignored:/node_modules/
+    },
+    
+    devServer: {
+        static: {
+            directory: path.join(__dirname, "public"),
+          },
     },
 };
